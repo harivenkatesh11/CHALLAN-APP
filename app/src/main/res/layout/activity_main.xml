@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/headerIcon"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/header" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="GOVERNMENT OF AP"
+        android:textSize="25sp"
+        android:textColor="#0CA812" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="POLICE DEPARTMENT"
+        android:textSize="16sp"
+        android:textColor="#C81717" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHALLAN"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textColor="#073933"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/vehicleNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle Number" />
+
+    <EditText
+        android:id="@+id/ownerNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Owner Name" />
+
+    <EditText
+        android:id="@+id/fineAmountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fine Amount"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/saveChallanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Save"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="@drawable/oval_button"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/challanListView"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:background="#8CAED1" />
+
+    <Button
+        android:id="@+id/aboutUsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:background="@drawable/oval_button"
+        android:textStyle="bold"
+        android:textColor="#123"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+
+
+</LinearLayout>

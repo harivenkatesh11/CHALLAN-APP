@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/header" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="95dp"
+        android:text="GOVERNMENT OF AP"
+        android:textSize="28sp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+        android:textColor="#0CA812" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="80dp"
+        android:text="POLICE DEPARTMENT"
+        android:textColor="#C81717"
+        android:textStyle="bold"
+        android:textSize="19sp" />
+
+    <ImageView
+        android:layout_width="117dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/police"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/officerButton"
+        android:layout_width="118dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/oval_button"
+        android:text="Officer"
+        android:textColor="#123"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/headerIcon"
+        android:layout_width="117dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="385dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img_1" />
+
+    <Button
+        android:id="@+id/citizenButton"
+        android:layout_width="130dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/oval_button"
+        android:textStyle="bold"
+        android:textColor="#123"
+        android:text="Citizen" />
+</RelativeLayout>

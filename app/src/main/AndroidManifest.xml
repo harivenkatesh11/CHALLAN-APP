@@ -1,0 +1,31 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.challanapp">
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:name=".UPIHandlerActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="upi"/>
+            </intent-filter>
+        </activity>
+        <!--  SplashActivity should be the launcher activity  -->
+        <activity android:name=".SplashActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!--  LoginActivity  -->
+        <activity android:name=".LoginActivity" android:exported="true"/>
+        <!--  MainActivity  -->
+        <activity android:name=".MainActivity" android:exported="true"/>
+        <!--  ChallanDetailsActivity  -->
+        <activity android:name=".ChallanDetailsActivity" android:exported="true"/>
+        <!--  ClientActivity  -->
+        <activity android:name=".ClientActivity" android:exported="true"/>
+        <!--  AboutUsActivity  -->
+        <activity android:name=".AboutUsActivity" android:exported="true"/>
+        <activity android:name=".SignUpActivity" android:exported="true"/>
+        <activity android:name=".UserSelectionActivity"/>
+    </application>
+</manifest>

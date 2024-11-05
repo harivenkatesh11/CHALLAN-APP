@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#C8FFEB3B">
+
+    <ImageView
+        android:layout_width="800dp"
+        android:layout_height="550dp"
+        android:src="@drawable/preview" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FOLLOW TRAFFIC RULES"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="#123"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
